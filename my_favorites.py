@@ -89,3 +89,8 @@ bridge_of_spies = movie.Movie("Bridge of Spies", "During the Cold War, an"
                               " pilot, Francis Gary Powers.",
                               "https://upload.wikimedia.org/wikipedia/en/f/fa/Bridge_of_Spies_poster.jpg",  # NOQA
                               "https://www.youtube.com/watch?v=7JnC2LIJdR0")
+
+# Put each movie in an array for use in fresh_tomatoes.open_movies_page()
+movies = [arrival, finding_nemo, la_la_land, passengers, petes_dragon,
+          wilderpeople, the_lobster, the_martian, the_revenant, mad_max,
+          star_wars, bridge_of_spies]
