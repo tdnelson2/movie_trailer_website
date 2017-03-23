@@ -1,6 +1,9 @@
 # Bring in the movie module containing the Movie class
 import movie
 
+# Contains the functionality for creating the movie trailer website
+import fresh_tomatoes
+
 
 # Create an instance of Movie class for each title
 arrival = movie.Movie("Arrival", "When twelve mysterious spacecraft appear"
@@ -94,3 +97,6 @@ bridge_of_spies = movie.Movie("Bridge of Spies", "During the Cold War, an"
 movies = [arrival, finding_nemo, la_la_land, passengers, petes_dragon,
           wilderpeople, the_lobster, the_martian, the_revenant, mad_max,
           star_wars, bridge_of_spies]
+
+# Build the movie trailer website
+fresh_tomatoes.open_movies_page(movies)
