@@ -1,4 +1,3 @@
-import webbrowser
 
 
 class Video():
@@ -11,7 +10,4 @@ class Video():
         self.description = description
         self.thumb = thumb
         self.link = link
-
-    def show_video(self):
-        webbrowser.open(self.link)
 
