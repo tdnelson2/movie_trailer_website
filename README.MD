@@ -9,7 +9,8 @@ Currently all the movie title data is in `my_favorites.py`. In the future, the d
 * If the module executes correctly, the website should appear automatically
 ## Customization
 To add additional movies to the website, append this to the end of the `movies` list in `my_favorites.py` substituting everything within the quotes with the appropriate data:
-~~~,
+~~~
+,
           movie.Movie("<<MOVIE TITLE HERE>>",
                       "<<URL TO MOVIE POSTER IMAGE HERE>>",  # NOQA
                       "<<URL TO MOVIE TRAILER ON YOUTUBE HERE>>")
